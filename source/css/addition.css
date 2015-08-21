@@ -1,0 +1,36 @@
+﻿/*-------------------additions---------------------*/
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    vertical-align: bottom;
+    border: 1px solid #ccc;
+}
+
+table th,table td {
+  border: 1px solid #c6c9cc;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  font-weight: 700;
+  background: #404853;
+  color: #fff;
+}
+
+table tbody>tr:nth-child(2n)>td,table tbody>tr:nth-child(2n)>th {
+    background-color: #ddd;
+}
+
+blockquote {
+    font-size: 15px;
+    margin: 0 0 20px;
+    padding: 1px 15px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-color: #D6DBDF;
+    background: none repeat scroll 0 0 #eee;
+}

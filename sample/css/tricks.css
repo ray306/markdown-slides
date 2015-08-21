@@ -1,0 +1,36 @@
+﻿/*----------------slides format---------------------*/
+.slides {
+  font-size: 0.9em;
+  position: absolute;
+}
+.slides h3 {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+.slides .s1, .slides .s2, .slides .s3, .slides .s4{
+  padding: 1px 20px;
+  height: 90px;
+  width: 120px;
+  background: #fff;
+  box-shadow: 0 0 10px #777;
+}
+.slides .s1 {
+  position: relative;
+  margin-left: 0px;
+}
+.slides .s2 {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 50px;
+}
+.slides .s3 {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+.slides .s4 {
+  position: relative;
+  margin-top: -10px;
+  margin-left: 150px;
+}
